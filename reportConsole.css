@@ -1,0 +1,100 @@
+body {
+    background-image: url("img/CityNight.webp");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    background-size: 1890px;
+    background-position: 0px -280px;
+    margin: 0;
+}
+
+.contentReport {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerText {
+    position: absolute;
+    top: 5%;
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    color: #f494ff;
+}
+
+.mainContainer {
+    width: 614px;
+    height: 541px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(101, 85, 191, 0.8);
+    overflow: auto;
+}
+
+.reportText {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.reportedUserContainer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    border-bottom: solid 1px black;
+}
+
+.actionButton {
+    margin-bottom: 10px;
+}
+
+.reportConsoleUser {
+
+}
+
+
+@media(max-width: 700px) { 
+    .mainContainer {
+        width: 490px;
+    }
+
+.headerText {
+    top: 8%;
+    font-size: 41px;
+}
+}
+
+@media(max-width: 520px) {
+    .mainContainer {
+        width: 400px;
+    }
+
+    .headerText {        
+        font-size: 31px;
+    }
+}
+
+@media(max-width: 430px) {
+    .mainContainer {
+        width: 313px;
+    }
+
+    .headerText {
+        font-size: 28px;
+    }
+
+    .headerText {
+        top: 6%;    
+}
+}

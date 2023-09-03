@@ -1,0 +1,234 @@
+body {
+background-image: url("img/CityNight.webp");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    background-size: 1890px;
+    background-position: 0px -280px;
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerText {
+    position: absolute;
+    top: 1%;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    color: #f494ff;
+}
+
+.loginContainer {
+    width: 580px;
+    height: 362px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(101,85,191, 0.8); 
+}
+
+.loginText {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.emailInput {
+    width: 47%;
+    height: 36px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d5d5d5;
+}
+
+.passwortInput {
+    width: 47%;
+    height: 36px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d5d5d5;
+}
+
+.inputContainer {
+    padding-top: 73px;
+}
+
+.logOut {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 23px;
+    right: 80px;
+    width: 91px;
+    padding: 0px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button {
+    width: 143%;
+    height: 42px;
+    border-radius: 10px;
+    border: 4px solid black;
+    background-color: purple;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Satisfy', cursive;
+}
+
+.button:hover {
+    background-color: #8f138f;
+    }
+
+.signContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;    
+    margin-left: 20px;
+    align-items: center;
+    font-size: 22px;
+}
+
+.loginButton {
+    width: 20%;
+    height: 42px;
+    border-radius: 10px;
+    border: 4px solid black;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Satisfy', cursive;
+}
+
+.loginButton:hover {
+    background-color: #8f138f;
+    }
+
+.loginButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;    
+    margin-left: 20px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+@media(max-width: 720px) {
+    .headerText {
+        font-size: 50px;
+    }
+
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emailInput {
+        width: 95%;
+    }
+
+    .passwortInput {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .loginContainer {
+        width: 425px;
+        height: 415px;
+    }
+
+    .button {
+        width: 111%;
+        height: 36px;
+    }
+
+
+}
+
+@media(max-width: 470px) {
+
+    .loginContainer {
+        width: 350px;
+    }
+
+    .inputContainer {
+        align-items: center;
+    }
+
+    .emailInput {
+        width: 90%;
+        height: 31px;
+    }
+
+    .passwortInput {
+        width: 90%;
+        height: 31px;
+    }
+
+    .inputContainer {
+        padding-top: 38px;
+    }
+
+    .loginText {
+        padding-top: 20px;
+
+    }
+
+}
+
+@media(max-width: 380px) {
+
+    .loginContainer {
+        width: 320px;
+    }
+
+    .signContainer {
+        font-size: 19px;
+    }
+
+    .button {
+        width: 94%;
+        height: 32px;
+    }
+
+    .button {
+        font-size: 18px;
+    }
+
+    .loginButton {
+        width: 24%;
+        height: 40px;
+        font-size: 20px;
+    }
+
+}
+

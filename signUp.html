@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="signUp.css">
+    <script src="mini_backend.js"></script>
+    <script src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+<body onload="load()">
+    
+    <div class="content" id="content">
+
+        <div onclick="logOut()" class="logOut" id="logOut"><p><a class="linkHomepage" href="index.html">Homepage !</a></p></div>
+        
+
+    <form onsubmit="register(); return false;" class="signContainer" id="loginContainer">
+        <span class="signText">Sign Up</span>
+    <div class="inputContainer">
+
+        <input class="userInput inputMargin" id="userInput" placeholder="UserNamen eingeben" required>
+
+        <input class="emailInput inputMargin" id="emailInput" placeholder="Email eingeben" required>
+
+        <input class="PasswortInput inputMargin" id="PasswordInput" type="password" placeholder="Passwort eingeben" required>
+
+        <div class="signButtonContainer"><button class="button">SignUp!</button></div>
+        
+    </div>
+</form>
+
+</div>
+
+</body>
+</html>

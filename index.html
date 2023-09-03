@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="mini_backend.js"></script>
+    <script src="script.js"></script>
+    
+
+    <title>Login</title>
+</head>
+<body onload="load()">
+    
+<div class="content" id="content">
+
+    <p class="headerText" id="headerText">Late Night Hessen</p>
+
+
+    <form onsubmit="login(); return false;" class="loginContainer" id="loginContainer">
+
+
+            <span class="loginText">Login</span>
+        <div class="inputContainer">
+            <input class="emailInput" id="emailLogin" placeholder="Email eingeben" required>
+
+            <input class="passwortInput" id="passwordLogin" type="password" placeholder="Passwort eingeben" required>
+        </div>
+
+        <div class="loginButtonContainer"><button class="loginButton">Login!</button></div>
+
+        <div class="signContainer">Not a user yet? <a class="link" href="signUp.html"><div class="button">SignUp!</div></a></div>
+
+
+    </form>
+
+</div>
+
+</body>
+</html>

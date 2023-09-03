@@ -1,0 +1,212 @@
+body {
+    background-image: url("img/CityNight.webp");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    
+        background-size: 1890px;
+        background-position: 0px -280px;
+        margin: 0;
+    }
+
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logOut {
+    position: absolute;
+    right: 84px;
+    top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+    height: 55px;
+    border-radius: 10px;
+    border: 4px solid black;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    transition: transform .2s ease-in-out;
+}
+
+.logOut:hover {
+    background-color: #8f138f;
+    transform: scale(1.2);
+    }
+
+
+
+.signContainer {
+    width: 580px;
+    height: 362px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    background-color: rgba(101,85,191, 0.8); 
+}
+
+.signText {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userInput {
+    width: 100%;
+    height: 36px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d5d5d5;
+}
+
+.emailInput {
+    width: 100%;
+    height: 36px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d5d5d5;
+}
+
+.PasswortInput {
+    width: 100%;
+    height: 36px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d5d5d5;
+}
+
+.inputMargin {
+    margin-top:10px;
+}
+
+.width {
+    width:100%;
+}
+
+.signButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;  
+    align-items: center;
+}
+
+.button {
+    width: 55%;
+    height: 42px;
+    border-radius: 10px;
+    border: 4px solid black;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Satisfy', cursive;
+}
+
+.button:hover {
+    background-color: #8f138f;
+    }
+
+.linkHomepage{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media(max-width: 640px) {
+    .signContainer {
+        width: 430px;
+    }
+}
+
+@media(max-width: 480px) {
+    .signContainer {
+        width: 430px;
+    }
+
+    .logOut {
+        right: 23px;
+        width: 115px;
+        height: 42px;
+    }
+    
+    .userInput {
+        width: 84%;
+        height: 32px;
+    }
+
+    .emailInput {
+        width: 84%;
+        height: 32px;
+    }
+
+    .PasswortInput {
+        width: 84%;
+        height: 32px;
+    }
+
+    .inputContainer {
+        align-items: center;
+    }
+
+    .signContainer {
+        width: 360px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .signContainer {
+        width: 309px;
+    }
+
+    .signText {
+        font-size: 44px;
+        margin-top: 20px;
+    }
+
+    .userInput {
+        width: 70%;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .emailInput {
+        width: 70%;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .PasswortInput {
+        width: 70%;
+        height: 28px;
+    }
+
+}
+
+
